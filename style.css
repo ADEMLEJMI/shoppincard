@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.decrement, .increment, .delete, .like {
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+.price {
+    margin-left: auto;
+}
+
+#liked {
+    color: red;
+}
